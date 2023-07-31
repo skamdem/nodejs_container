@@ -1,4 +1,4 @@
-docker build -t websurfer21/nodeContainer . 
-docker push websurfer21/nodeContainer
-docker run --rm -it -p 8084:80 websurfer21/nodeContainer
-docker rmi websurfer21/nodeContainer
+docker build -t websurfer21/nodecontainer . 
+docker push websurfer21/nodecontainer
+docker run --rm -it -p 8084:80 websurfer21/nodecontainer
+docker rmi websurfer21/nodecontainer
